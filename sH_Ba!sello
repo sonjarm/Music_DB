@@ -1,0 +1,13 @@
+[33mcommit ea1a2534602f5cb88f6dfb845af3ab18ebd8abf3[m
+Author: Sonja R. Maddox <[sonjarmaddox@yahoo.com]>
+Date:   Mon Feb 9 20:22:31 2015 -0600
+
+    2nd attempt
+
+[33mcommit a25e505b6f4d2c0b1b763cb9061ccaad9728f2ad[m
+Author: Sonja R. Maddox <[sonjarmaddox@yahoo.com]>
+Date:   Mon Feb 9 20:09:51 2015 -0600
+
+    this is a test. there was a warning warning: LF will be replaced by CRLF in trust_me/test/controllers/trust_me_nots_
+    controller_test.rb.
+    The file will have its original line endings in your working directory.
