@@ -1,0 +1,33 @@
+<%= form_for(@trust_time) do |f| %>
+  <% if @trust_time.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@trust_time.errors.count, "error") %> prohibited this trust_time from being saved:</h2>
+
+      <ul>
+      <% @trust_time.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Happy_Birthday %><br>
+    <%= f.text_field :Happy_Birthday %>
+  </div>
+  <div class="field">
+    <%= f.label :notes %><br>
+    <%= f.text_area :notes %>
+  </div>
+  <div class="field">
+    <%= f.label :birthdate %><br>
+    <%= f.date_select :birthdate %>
+  </div>
+  <div class="field">
+    <%= f.label :done %><br>
+    <%= f.check_box :done %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

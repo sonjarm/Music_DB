@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Happy_Birthday: MyString
+  notes: MyText
+  birthdate: 2015-02-09
+  done: false
+
+two:
+  Happy_Birthday: MyString
+  notes: MyText
+  birthdate: 2015-02-09
+  done: false

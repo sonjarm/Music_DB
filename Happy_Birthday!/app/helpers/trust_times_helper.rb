@@ -1,0 +1,2 @@
+module TrustTimesHelper
+end
