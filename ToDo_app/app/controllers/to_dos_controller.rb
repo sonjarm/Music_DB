@@ -15,6 +15,7 @@ class ToDosController < ApplicationController
   # GET /to_dos/new
   def new
     @to_do = ToDo.new
+    @users = User.all
   end
 
   # GET /to_dos/1/edit
@@ -25,7 +26,7 @@ class ToDosController < ApplicationController
   # POST /to_dos.json
   def create
     @to_do = ToDo.new(to_do_params)
-
+    
     respond_to do |format|
       if @to_do.save
         format.html { redirect_to @to_do, notice: 'To do was successfully created.' }
@@ -69,6 +70,6 @@ class ToDosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def to_do_params
-      params.require(:to_do).permit(:title, :notes, :due, :done)
+      params.require(:to_do).permit(:title, :notes, :due, :done, :user_id)
     end
 end
