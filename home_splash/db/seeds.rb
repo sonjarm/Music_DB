@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Quote.create(quip: "Wherever you go there you are!")
+Quote.create(quip: "To be or not to be")
+Quote.create(quip: "Seize the day!")
+Quote.create(quip: "Each one teach one!")

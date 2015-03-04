@@ -33,7 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 #take away webrick
-gem 'quiet assets'
+gem 'quiet_assets'
 
 
 group :development, :test do
